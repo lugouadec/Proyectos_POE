@@ -1,0 +1,52 @@
+# =========================================================
+# .gitignore para Proyectos Java SE (Apache Ant) en NetBeans
+# =========================================================
+
+# --- Archivos de usuario y configuración local de NetBeans ---
+nbproject/private/
+nbproject/project.fragment.xml
+nbproject/build-impl.xml
+
+# --- Directorios de compilación y distribución de Ant ---
+build/
+dist/
+
+# --- Archivos de clases compiladas y artefactos ---
+*.class
+*.jar
+*.war
+*.ear
+
+# --- Archivos de registro (Logs) y temporales ---
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+.cache/
+
+# --- Archivos del Sistema Operativo ---
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSSharedFileList
+.Spotlight-V100
+.Trashes
+
+# Linux
+.fuse_hidden*
+.directory
+
+# --- Configuración de otros IDEs (Eclipse, IntelliJ, VS Code) ---
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.vscode/
